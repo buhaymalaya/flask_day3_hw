@@ -1,0 +1,18 @@
+Homework Day 3 - Enhancing REST API with Flask-Smorest and Marshmallow
+
+In this assignment, you will elevate your REST API by integrating Flask-Smorest for resource blueprint 
+creation and Marshmallow for schema implementation. The additional challenge involves organizing routes 
+into MethodView classes for a cleaner and more structured codebase.
+
+    Implement a blueprint for each resource using Flask-Smorest.
+    Ensure that the blueprints are well-organized and clearly separated for each resource.
+    Create Marshmallow schemas for each resource.
+    Define schema structures that accurately represent the data models for each resource.
+    Ensure the schemas can handle data validation for incoming and outgoing requests.
+    Utilize the Marshmallow schemas to validate data coming into the API (request validation).
+    Implement validation for data going out of the API to ensure consistency (response validation).
+    (Optional)
+
+    Refactor your route implementations into Flask MethodView classes .
+    Organize the classes in a logical and maintainable structure.
+    Ensure each class corresponds to a specific resource and encapsulates related functionality.

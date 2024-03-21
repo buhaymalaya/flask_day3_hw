@@ -1,0 +1,35 @@
+MethodViews
+
+Grouping same endpoints into one class 
+ie @app.post(‘/post’) and app.get(‘/post’)
+
+Marshmallow
+3rd party library
+Used to validate data coming into routes
+Serializes data we want to go out as a response to user
+ie using passwords; for response to specify in marshmallow schema, pw is expected as receipt but not included in response
+Pip install marshmallow
+
+Flask-smorest
+Built on top of Marshmallow
+Provides robust documentation
+Helps implement best practices with minor work
+Pip install flask-smorest
+
+Blueprint
+Increases modularization and sections of code
+From flask-smorest import Blueprint
+Tying in routes to bp instead of flask_app
+Register bp in app init file
+
+Schemas (via Marshmallow)
+Validates data coming in
+Serializes data going out
+Validating what data we want to go out
+Create new file - schemas.py
+
+Configuration
+On app init file, from flask_smorest import Api
+Instantiate with flask app api = Api(app)
+Create new file config.py - create a class Config (to configure flask app)
+Configuration for flask-smorest

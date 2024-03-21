@@ -1,0 +1,40 @@
+FLASK INSTRUCTIONS TEXT - ALWAYS ADD TO VENV PROJECT AS A GUIDE
+
+1. Create virtual environment -- python3 -m venv venv
+(second venv is the name so whatever you choose to name the environment)
+If there is a popup, click no
+
+2. Activate virtual environment (venv) shell - source venv/bin/activate
+type every time you want to activate virtual environment
+Venv\scripsts\activate - windows
+
+3. Install flask before importing - pip3 install flask
+
+4. pip3 freeze > requirements.txt (contains all dependencies and packages)
+- run to update whenever a change is made within venv
+
+pip3 install python-dotenv
+
+5. to run file, type: flask run (instead of play button)
+
+6. create .env file outside of venv folder
+
+7. remember to use:
+pip freeze
+
+.gitignore and enumerate files to not follow
+
+8. .env (to contain private/secret info/API/database)
+FLASK_APP = run.py
+FLASK_DEBUG = 1
+
+flask run 
+
+
+COLLABS
+
+Grab repo link to collab on
+Clone repo
+To download exact same requirements from cloned repo, type: 
+pip install -r requirements.txt (after activating venv)
+Create your own .env file since that was ignored in original repo
